@@ -13,6 +13,7 @@
 </head>
 <body>
     <header class="header">
+        <h1 class="visully-hidden">Теплый пол.</h1>
 
     <div class="container header__container">
         <img class="header__logo" src="image/logo.svg" alt="">
@@ -22,10 +23,129 @@
 
     </header>
     <main>
+        <section class="hero section-offset">
+            <div class="container hero__container">
+                <div class="hero__content gray-block">
 
+                    <h2 class="hero__title">Приносим тепло в&nbsp;каждый дом</h2>
+
+                    <p class="hero__description">Устанавливаем теплые полы в&nbsp;квартирах, офисах и&nbsp;загородных домах.</p>
+
+                    <a href="#calc" class="button link hero__link"><button>Рассчитать&nbsp;стоимость</button> </a>
+
+                </div>
+                <div class="hero__slider-wrapper">
+                    <div class="filling">
+                        <div class="filling">
+                            <!-- слайды -->
+                            <div 
+                                 class="filling hero__image" 
+                                 style="background-image: url('./image/heroimage01.jpg');">
+                            </div>
+                        </div>
+
+                        <button class="hero__slider-btn hero__slider-btn_prev">
+
+                        </button>
+                        <button class="hero__slider-btn hero__slider-btn_next">
+
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="advantages section-offset">
+            <div class="container advantages__container">
+                <h2 class="advantages__title">Наши преимущества</h2>
+
+                <ul class="advantages__list list-reset">
+                    <li class="advantages__item">Надежные материалы</li>
+                    <li class="advantages__item">опытные монтажники</li>
+                    <li class="advantages__item">Регулируемая температура пола</li>
+                    <li class="advantages__item">Защита от замыканий</li>
+                    <li class="advantages__item">Гарантия до 10 лет</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="calc section-offset" id="calc">
+            <div class="container calc__container">
+               <div class="calc__content gray-block">
+                <h2 class="calc__title">Рассчитайте стоимость</h2>
+
+                <form class="calc__form">
+                    <fieldset class="calc__fieldset calc__fieldset_size">
+                        <label class="calc__wrapper-input calc__wrapper-input-size">
+                            <span class="calc__text">Ширина помещения, м</span>
+                            <input class="calc__input-number" 
+                                   type="number" 
+                                   name="width" required 
+                                   >
+                        </label>
+
+                        <label class="calc__wrapper-input calc__wrapper-input-size">
+                            <span class="calc__text">Длина помещения, м</span>
+                            <input 
+                                   class="calc__input-number" 
+                                   type="number" 
+                                   name="length" required
+                                   >
+                        </label>
+
+                    </fieldset>
+
+                    <!-- tariff start -->
+
+                    <fieldset class="calc__fieldset calc__fieldset_tariff">
+
+                        <legend class="calc__text calc__text_legent">Тариф</legend>
+
+                        <label class="calc__wrapper-input calc__wrapper-input-tariff">
+                            <input 
+                                   class="calc__input-radio" 
+                                   type="radio" name="tariff" 
+                                   value="economy" 
+                                   checked
+                                   > 
+
+                            <span class="calc__lable-radio">Эконом</span>
+                        </label>
+
+                        <label class="calc__wrapper-input calc__wrapper-input-tariff">
+                           <input 
+                                  class="calc__input-radio" 
+                                  type="radio" 
+                                  name="tariff" 
+                                  value="comfort"
+                                  > 
+
+                           <span class="calc__lable-radio">комфорт</span>
+                        </label>
+
+                        <label class="calc__wrapper-input calc__wrapper-input-tariff">
+                            <input 
+                                  class="calc__input-radio" 
+                                  type="radio" 
+                                  name="tariff" 
+                                  value="premium"
+                                  > 
+                                  
+                            <span class="calc__lable-radio">Премиум</span>
+                        </label>
+                    
+                    </fieldset>
+                    <button class="button calc__submit" type="submit">Рассчитать</button>
+                </form>
+               </div> 
+
+            </div>
+        </section>
     </main>
     <!-- footer start -->
-    <footer class="footer">
+    <footer class="footer section-offset">
         <div class="container footer__container">
             <img class="footer__logo" src="image/logo.svg" alt="">
 
