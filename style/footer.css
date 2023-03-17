@@ -16,20 +16,33 @@
 .footer__logo{
     grid-area: logo;
 }
+.footer__list{
+    display: flex;
+    flex-direction: column;
+}
 .footer__social{
     grid-area: social;
-    display: flex;
+   flex-direction: row;
     gap: 24px;
     justify-self: end;
+    padding-top: 8px;
 
 }
 .footer__contact{
     grid-area: contact;
+    gap: 16px;
+    padding-top: 8px;
 }
 .footer__copyright{
     grid-area: copyright;
+    margin: 0;
 }
 .footer__developer{
     grid-area: developer;
+    gap: 8px;
 }
-
+.footer__link_contact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
