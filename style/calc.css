@@ -99,8 +99,6 @@
     text-transform: uppercase;
 }
 
-.calc__submit {
-}
 .calc__total {
     flex-basis: 50%;
     display: flex;
