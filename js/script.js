@@ -1,3 +1,4 @@
+
 new Swiper('.hero__slider', {
     slidesPerView: 2, 
     spaceBetween: 10,
