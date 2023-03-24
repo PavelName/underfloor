@@ -29,3 +29,16 @@
 .advantages__item:last-child {
     margin-bottom: 0;
 }
+/* mwdei query start */
+    @media (max-width: 1240px) {
+
+    }
+
+    @media (max-width: 920px) {
+
+    }
+    
+    @media (max-width: 560px) {
+
+    }
+    

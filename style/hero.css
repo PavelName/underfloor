@@ -25,9 +25,9 @@
 }
 
 .hero__title {
-    
     margin-bottom: 32px;
 }
+
 .hero__description {
     flex-grow: 1;
     text-transform: uppercase;
@@ -93,21 +93,38 @@
         .hero__container {
             flex-direction: column;
         }
-        .hero__content {
+         .hero__content {
             width: 100%;
-        }
+         }
+        
         .hero__slider-block {
             position: static;
             height: 280px;
         }
         .hero__title {
+            max-width: 410px;
             margin-bottom: 16px;
         } 
         .hero__description {
+            max-width: 410px;
            margin-bottom: 50px;
+           font-size: 14px;
         }
-
+        .hero__arrow {
+           left:auto;
+           right: var(--padding); 
+           transform: none;
+        }
     }
+
     @media (max-width: 560px) {
+        .hero__description {
+            font-style: 12px;
+            margin-bottom: 24px;
+        }
+        .hero__slider-block {
+            max-width: var(--width-slide);
+            margin: 0 auto;
+        }
 
     }
