@@ -112,6 +112,7 @@
     background: url('../image/calcgroup.jpg') center/cover no-repeat;
 }
 .calc__result-wrapper {
+    display: none;
     flex-basis: 303px;
     padding: 24px;
     background: #FFFFFF; 

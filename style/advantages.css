@@ -31,14 +31,44 @@
 }
 /* mwdei query start */
     @media (max-width: 1240px) {
-
+        .advantages__container {
+            padding: 0 30px;
+        }
+        .advantages__title {
+            max-width: 330px;
+        }
+        .advantages__item {
+            font-size: 20px;
+        }
     }
 
     @media (max-width: 920px) {
+        .advantages__container {
+            flex-direction: column;
+            gap: 24px;
+        }
 
+        .advantages__item {
+            font-size: 16px;
+            margin-bottom: 16px;
+        }
+        .advantages__title {
+            max-width: 440px;
+            width: 100%;
+        }
+        .advantages__list {
+            width: 100%;
+        }
     }
     
     @media (max-width: 560px) {
+        .advantages__container {
+            padding: 0 20px;
 
+        }
+        .advantages__item {
+            font-size: 14px;
+            padding-left: 24px;
+        }
     }
     
