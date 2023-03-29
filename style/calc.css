@@ -51,20 +51,33 @@
     line-height: 150%;
     padding: 0 25px;
 }
+
+.calc__input-number:hover {
+    border-color: #FFC700;
+}
+.calc__input-number:focus {
+    border-color: #FFC700;
+}
+
+
 .calc__fieldset_tariff {
     margin-bottom: 65px;
 }
+
 .calc__text_legent {
     margin-bottom: 16px;
 }
+
 .calc__wrapper-input-tariff {
     margin-right: 16px;
     display: inline-flex;
     /* align-items: center; */ 
 }
+
 .calc__wrapper-input-tariff:last-child {
     margin-right: 0;
 }
+
 .calc__input-radio {
     -webkit-appearance: none;
     -moz-appearance: none;
