@@ -40,6 +40,10 @@ body {
 .link {
     text-decoration: none;
     color: inherit;
+    transition: color 0.2s ease-in-out;
+}
+.link:hover {
+    color: #FFD952;
 }
 
 .image {
@@ -80,6 +84,14 @@ body {
 
 .button:active {
     transform: translate(2px, 2px);
+}
+
+.button:disabled {
+    pointer-events: none;
+    background-color: #E0E0E0;
+    border-color: #E0E0E0 ;
+    color: #898989;
+    cursor: default;
 }
 
 .section-offset {
