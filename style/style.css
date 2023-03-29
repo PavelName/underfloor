@@ -56,7 +56,30 @@ body {
     padding: 18px 40px;
     color: #232020;
     text-transform: uppercase;
-    background-color: #FFC700 ;
+    background-color: #FFC700;
+    border: 2px solid  #FFC700;
+    outline: none;
+}
+
+.button_o {
+    background-color: transparent;
+    border: 2px solid #232020;
+   
+}
+.button:hover {
+    background-color: #FFD952;
+    border-color: #FFD952 ;
+}
+.button:focus-visible {
+    border-color: #9E7B00;
+}
+
+.button_o:focus-visible {
+    border-color:#FFC700;
+}
+
+.button:active {
+    transform: translate(2px, 2px);
 }
 
 .section-offset {
