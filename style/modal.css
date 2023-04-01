@@ -1,6 +1,5 @@
 .modal {
-    /* display: none; */
-    display: flex;
+    display: none;
     position: fixed;
     z-index: 50;
     inset: 0;
@@ -12,6 +11,7 @@
 
 
 .modal__main {
+    position: relative;
     margin: auto;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -42,8 +42,6 @@
     margin-bottom: 32px;
     text-transform: uppercase;
 }
-.modal__form {
-}
 .modal__fieldset {
     margin: 0 0 12px;
     padding: 0;
@@ -70,10 +68,6 @@
     border-radius: 12px;
     padding: 0 25px;
 }
-.button {
-}
-.modal__submit {
-}
 .modal__container:after {
     content: '';
     flex: 0 0 350px;
@@ -82,7 +76,9 @@
 }
 .modal__close {
     position: absolute;
-    background-color: transparent;
-    border: 0;
-
+    border-color: transparent;
+    padding: 0;
+    top: 10px;
+    right: 10px;
+    line-height: 0;
 }
