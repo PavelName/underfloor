@@ -36,6 +36,10 @@
 
 }
 
+hero__link {
+    text-decoration: none;
+}
+
 
 .hero__image {
     width: var(--width-slide);

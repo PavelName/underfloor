@@ -114,3 +114,4 @@ const modalController = ({modal, btnOpen, btnClose, time = 300}) => {
     btnOpen: '.js-order', 
     btnClose: '.modal__close',
 });
+
