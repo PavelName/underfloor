@@ -115,3 +115,14 @@ const modalController = ({modal, btnOpen, btnClose, time = 300}) => {
     btnClose: '.modal__close',
 });
 
+
+
+const printNumber = (lustNumber) => {
+  let i = 1;
+  while (i <= lustNumber) {
+    console.log(i);
+    i = i + 1;
+  }
+  console.log('finished!')
+};
+printNumber(4)
