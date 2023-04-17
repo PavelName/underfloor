@@ -114,15 +114,13 @@ const modalController = ({modal, btnOpen, btnClose, time = 300}) => {
     btnOpen: '.js-order', 
     btnClose: '.modal__close',
 });
+// modal window end!
 
 
 
-const printNumber = (lustNumber) => {
-  let i = 1;
-  while (i <= lustNumber) {
-    console.log(i);
-    i = i + 1;
-  }
-  console.log('finished!')
-};
-printNumber(4)
+const king = 'King Balon the 6th';
+const newKing = 6;
+const allCastle = 17;
+const copyParents = newKing * allCastle;
+
+console.log(`${king} has ${copyParents} rooms.`);
