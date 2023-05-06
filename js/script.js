@@ -118,9 +118,8 @@ const modalController = ({modal, btnOpen, btnClose, time = 300}) => {
 
 
 
-const king = 'King Balon the 6th';
-const newKing = 6;
-const allCastle = 17;
-const copyParents = newKing * allCastle;
+let king = 'King Balon the 6th';
+king = 6;
 
-console.log(`${king} has ${copyParents} rooms.`);
+
+console.log(king);
