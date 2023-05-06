@@ -118,8 +118,3 @@ const modalController = ({modal, btnOpen, btnClose, time = 300}) => {
 
 
 
-let king = 'King Balon the 6th';
-king = 6;
-
-
-console.log(king);
